@@ -1,0 +1,47 @@
+.main{
+   
+    /* background-color: rgb(47, 47, 84); */
+    text-align: center;
+    padding: 70px;
+    background-image: url("https://media.istockphoto.com/id/1313584181/vector/shining-wave-curve-pink-background.jpg?s=612x612&w=0&k=20&c=SeodbtneCIiar4dIUiyOv65HYF6m9qvp_G12-EHxB-M=");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+}
+.first {
+     /* padding: 80px;  */
+    height: 100px;
+    width: 1400px;
+    /* background-color: pink; */
+}
+p {
+    padding: 50px;
+    align-items: center;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+    font-style: italic;
+    
+}
+p{color: rgb(27, 22, 127)}
+.second{
+    height: 300px;
+    width:1400px;
+    /* background-color: yellow; */
+}
+.third {
+    height: 300px;
+    width:1400px;
+    /* background-color: white; */
+
+}
+.col {
+    color: rgb(15, 15, 7);
+    font-size: 40px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    /* text-decoration-color: rgb(140, 19, 40); */
+
+}
+b{color:rgb(17, 17, 221)}

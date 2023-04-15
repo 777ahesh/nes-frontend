@@ -21,8 +21,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <div>
-      <section id="navbar" className="bg-light start-header start-style">
+    <>
+    <div className="hero">
+      <section id="navbar" className=" start-header start-style ">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light bg-transparent">
             <a className="navbar-brand" href="https://front.codes/">
@@ -127,7 +128,8 @@ const Hero = () => {
         </div>
 
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

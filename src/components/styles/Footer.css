@@ -1,0 +1,21 @@
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-div {
+    position: relative !important;
+    width: 100%;
+
+    background-color: black;
+}
+
+.footer-div h4 {
+    background: linear-gradient(to right, #eba49c,
+    #2c4cad, #f9c449, #f04393);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
