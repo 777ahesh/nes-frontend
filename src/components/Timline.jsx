@@ -35,7 +35,7 @@ function Timeline({ imgSrc }) {
             contentArrowStyle={{ borderRight: "10px solid  rgb(33, 150, 243)" }}
             date="Day-1 07:00 AM"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<img alt="hello" Src={regLogo} />}
+            icon={<img alt="hello" src={regLogo} />}
           >
             <h3 className="vertical-timeline-element-title">
               REGISTRATION & INAUGURATION
@@ -55,7 +55,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "5px 50px 5px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={guestLogo} />}
+            icon={<img alt="hello" src={guestLogo} />}
           >
             <h3 className="vertical-timeline-element-title">GUEST SESSIONS</h3>
             <p>
@@ -73,7 +73,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "50px 5px 50px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={expertLogo} />}
+            icon={<img alt="hello" src={expertLogo} />}
           >
             <h3 className="vertical-timeline-element-title">
               ECC 2.0 & EXPERT SESSION
@@ -90,7 +90,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "5px 50px 5px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={starLogo} />}
+            icon={<img alt="hello" src={starLogo} />}
           >
             <h3 className="vertical-timeline-element-title">STAR SESSION</h3>
             <p>Discover the secrets of success with our star session</p>
@@ -105,7 +105,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "50px 5px 50px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={entertainLogo} />}
+            icon={<img alt="hello" src={entertainLogo} />}
           >
             <h3 className="vertical-timeline-element-title">ENTERTAINMENT</h3>
             <p>
@@ -123,7 +123,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "5px 50px 5px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={expertLogo} />}
+            icon={<img alt="hello" src={expertLogo} />}
           >
             <h3 className="vertical-timeline-element-title">EXPERT SESSION</h3>
             <p>Gain valuable insights from industry experts</p>
@@ -138,7 +138,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "50px 5px 50px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={founderLogo} />}
+            icon={<img alt="hello" src={founderLogo} />}
           >
             <h3 className="vertical-timeline-element-title">
               FOUNDER'S FUSION
@@ -159,7 +159,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "5px 50px 5px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={expertLogo} />}
+            icon={<img alt="hello" src={expertLogo} />}
           >
             <h3 className="vertical-timeline-element-title">
               CXO'S & EXPERT SESSION
@@ -179,7 +179,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "50px 5px 50px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={starLogo} />}
+            icon={<img alt="hello" src={starLogo} />}
           >
             <h3 className="vertical-timeline-element-title">STAR SESSION</h3>
             <p>
@@ -197,7 +197,7 @@ function Timeline({ imgSrc }) {
               borderRadius: "5px 50px 5px",
               boxShadow: "3px 10px 10px #000000",
             }}
-            icon={<img alt="hello" Src={entertain2Logo} />}
+            icon={<img alt="hello" src={entertain2Logo} />}
           >
             <h3 className="vertical-timeline-element-title">Entertainment</h3>
             <p>
