@@ -13,7 +13,7 @@ import expertLogo from "../assets/expert-session.png";
 import guestLogo from "../assets/guest-session.png";
 import starLogo from "../assets/star-session.png";
 
-function Timeline({ imgSrc }) {
+function Timeline() {
   return (
     <>
       <div className="timeline">

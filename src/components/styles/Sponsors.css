@@ -1,0 +1,11 @@
+.slider img{
+    width: 200px;
+    height: 200px;
+}
+.slick-list{
+    width: 90%!important;
+    max-width: 100%;
+}
+.slick-track{
+    width: 90%;
+}
