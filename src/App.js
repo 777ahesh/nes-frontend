@@ -4,7 +4,7 @@ import Timeline from "./components/Timline";
 import Footer from "./components/Footer";
 import TestiMonials from './components/TestiMonials/TestiMonials'
 import "./styles.css";
-import Sponsors from "./components/Sponsors";
+// import Sponsors from "./components/Sponsors";
 
 function App() {
   return (
