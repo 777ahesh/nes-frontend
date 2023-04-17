@@ -8,16 +8,16 @@ import "./TestiMonials.css";
 const TestiMonials = () => {
   const testiMonials = [
     {
-      img: "https://res.cloudinary.com/dteiwrdfu/image/upload/v1669990959/ieee/event01_ptzyul.png",
+      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/api%20101%20d2_eetfVgE.png",
     },
     {
-      img: "https://res.cloudinary.com/dteiwrdfu/image/upload/v1669990959/ieee/event01_ptzyul.png",
+      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/hacktober_handson_06cEDi2.png",
     },
     {
-      img: "https://res.cloudinary.com/dteiwrdfu/image/upload/v1669990959/ieee/event01_ptzyul.png",
+      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/SAVE_20221015_201845.jpg",
     },
     {
-      img: "https://res.cloudinary.com/dteiwrdfu/image/upload/v1669990959/ieee/event01_ptzyul.png",
+      img: "https://www.isquareit.edu.in/wp-content/uploads/2020/02/0000.jpg",
     },
   ];
   //Owl Carousel Settings
