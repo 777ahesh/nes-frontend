@@ -1,0 +1,453 @@
+.hero {
+    background-image: url('../../images/nes-hero-bg2.jpg');
+    background-size: 100% 100%;
+    height: 110vh;
+}
+
+/*   Navbar CSS    **************************************************************************************************************** */
+.start-header {
+    padding: 20px 0;
+    box-shadow: 0 10px 50px 0 rgba(138, 155, 165, 0.3);
+}
+
+.navbar {
+    padding: 0;
+}
+
+/* .navbar-brand img {
+    height: 28px;
+    width: auto;
+    display: block;
+    filter: brightness(10%);
+} */
+.navbar-brand h1 {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navbar-toggler {
+    float: right;
+    border: none;
+    padding-right: 0;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none;
+    position: relative;
+    /* background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44); */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-bottom: 1px solid #ffffff;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after,
+.navbar-light .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 1px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+.nav-link {
+    /* background: linear-gradient(to right, #eba49c,
+            #2c4cad, #f9c449, #f04393); */
+    background: #f9c449;
+    font-size: 18px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
+
+.nav-item:hover .nav-link {
+    color: #f9c449 !important;
+}
+
+.nav-item.active .nav-link {
+    color: #f9c449 !important;
+}
+
+.nav-link {
+    position: relative;
+    padding: 5px 0px !important;
+    display: inline-block;
+}
+
+.nav-item:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background-color: #f9c449;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.nav-item:hover:after {
+    bottom: 0;
+    opacity: 1;
+}
+
+.nav-item.active:hover:after {
+    opacity: 0;
+}
+
+.nav-item {
+    position: relative;
+    transition: all 200ms linear;
+}
+
+/*    Hero CSS    ***************************************************************************************************************** */
+.Hero h3,
+h5,
+h4 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #f9c449;
+    animation: glitch 725ms infinite;
+}
+
+.Hero h1 {
+    color: #f9c449;
+    text-shadow: 0 0 0px #f9c449, 0 0 0px #f9c449;
+}
+
+.iic {
+    padding: 30px 0px 30px;
+}
+
+/*     nes       ****************************************************************************************************************** */
+.nes {
+    padding: 10px 0px 10px;
+}
+
+.popout {
+    font-family: Futura, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 4px;
+    /* padding: 80px; */
+}
+
+@keyframes ani {
+    0% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0em 0em 0 white;
+        color: #f9c449;
+    }
+
+    30% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0em 0em 0 white;
+        color: #f9c449;
+    }
+
+    70% {
+        transform: translate3d(0.08em, -0.08em, 0);
+        text-shadow: -0.08em 0.08em white;
+        color: #f9c449;
+    }
+
+    100% {
+        transform: translate3d(0.08em, -0.08em, 0);
+        text-shadow: -0.08em 0.08em white;
+        color: #f9c449;
+    }
+}
+
+.popout span {
+    position: relative;
+    display: inline-block;
+    animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.popout span:nth-last-child(1n) {
+    animation-delay: -0.1666666667s;
+}
+
+.popout span:nth-last-child(2n) {
+    animation-delay: -0.3333333333s;
+}
+
+.popout span:nth-last-child(3n) {
+    animation-delay: -0.5s;
+}
+
+.counter {
+    color: white;
+    /* position: absolute; */
+}
+@media screen and (max-width: 480px) {
+    .popout {
+        font-weight: 500;
+        font-size: 30px;
+        letter-spacing: 2px;
+        /* padding: 80px; */
+    }
+}
+
+/*   timer *********************************************************************************************************************** */
+/* .countdown {
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+}
+
+.countdown .boxes {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    font-size: 11px;
+}
+
+.box:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 100%;
+    width: 50%;
+    left: 0;
+}
+
+span.num {
+    background-color: #240e8b;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 5em;
+}
+
+span.text {
+    font-size: 1.8em;
+    background-color: #e8a49c;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.2em 0;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+    .countdown {
+        width: 85vw;
+    }
+
+    .countdown .boxes {
+        width: 70%;
+    }
+
+    .box {
+        height: 23vmin;
+        width: 20%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .countdown {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .countdown .boxes {
+        width: 100%;
+    }
+
+    .box {
+        width: 20%;
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .countdown {
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .countdown .boxes {
+        width: 100%;
+    }
+
+    .box {
+        width: 20%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+
+    .span.text {
+        font-size: 1.5em;
+    }
+} */
+
+/*    Register button ************************************************************************************************************ */
+.login-box {
+    margin: 0px 0px 30px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    color: #03e9f4;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+
+.login-box a:hover {
+    background: #03e9f4;
+    color: #240e8b;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #03e9f4;
+}
+
+.login-box a span {
+    position: absolute;
+    display: block;
+}
+
+.login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+/* 
+html {
+    background: white;
+} */

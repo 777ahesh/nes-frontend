@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/Footer.css";
-import IEEE from "./nes-logo.png";
+import IEEE from "../images/nes-logo.png";
+
 function Footer() {
   return (
     <>
@@ -110,7 +111,7 @@ function Footer() {
           </section>
         </div>
 
-        <div className="text-center ">
+        <div className="text-center mb-4">
           {/* style="background-color: rgba(0, 0, 0, 0.2)" */}
           Developed by IIC I2IT
           © 2022 Copyright:

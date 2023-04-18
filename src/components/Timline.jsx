@@ -15,7 +15,7 @@ import starLogo from "../assets/star-session.png";
 
 function Timeline() {
   return (
-    <>
+    <div className="container">
       <div className="timeline">
         <div className="title">
           <h1 className="col ">Event Timeline</h1>
@@ -207,7 +207,7 @@ function Timeline() {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 }
 
