@@ -1,4 +1,28 @@
-.timeline{
-    position: relative;
-    margin: 5% 0px 0px;
+@media screen and (max-width: 1030px) {
+    .vertical-menu {
+        width: 90vw;
+        align-self: center;
+    }
+
+    .vertical-timeline-element {
+        width: 85%;
+        font-size: small;
+    }
+
+    .img-div {
+        width: 50px;
+        position: relative;
+        bottom: 5px;
+        right: 5px;
+
+    }
+
+}
+
+.title-div h1 {
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }

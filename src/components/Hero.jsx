@@ -1,6 +1,6 @@
 import "./styles/Hero.css";
 // import React, { useState, useEffect } from "react";
-import React from "react";
+import React, {useRef} from "react";
 
 const Hero = () => {
   // const [countdown, setCountdown] = useState(null);
@@ -24,6 +24,16 @@ const Hero = () => {
   //   return () => clearInterval(interval);
   // }, []);
   // const { days, hours, minutes, seconds } = countdown;
+
+
+  const myRef = useRef(null);
+
+  const scrollToRef = () => {
+    window.scrollTo(0, myRef.current.offsetTop);
+  }
+
+
+
   return (
 
     <div className="hero">
@@ -62,13 +72,13 @@ const Hero = () => {
                   </a>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a className="nav-link" href="/">
-                    Portfolio
+                  <a className="nav-link" href="/" onClick={scrollToRef}>
+                    About
                   </a>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
                   <a className="nav-link" href="/">
-                    Agency
+                    Events
                   </a>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
@@ -79,12 +89,12 @@ const Hero = () => {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Services
+                    Speakers
                   </a>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
                   <a className="nav-link" href="/">
-                    Journal
+                    Team
                   </a>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">

@@ -25,7 +25,7 @@ function About() {
             <img src={Nes} alt="Nes"/>
         </div>
       </div> */}
-      <div className="container" >
+      <div className="container" id="about" ref={myRef}>
         <div className="about">
           <div className="row ">
             <h1 className="mb-5">ABOUT NES</h1>

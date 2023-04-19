@@ -49,7 +49,7 @@ const speakers = [
   },
   {
     name: "Mr. Shravan Tikoo",
-    photo: "https://example.com/jane-smith.jpg",
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRolwCnsUenQ0kxaSE_L6eSO8Z2jhPE-KLAHEK3hGBdqSZquMy-nf8SJilrarKOMMAEO-sc3X2xON4&usqp=CAU&ec=48665699",
     occupation: "Group PM, Bhanzu, Ex-Principal PM, Byju_s"
   },
   {
@@ -66,8 +66,8 @@ const Guests = () => {
       <div className="container">
         <h2 className="guest-title h1">Guests</h2>
         <div className="row">
-          {speakers.map((speaker) => (
-            <div className="col-xs-12 col-sm-6 col-md-4">
+          {speakers.map((speaker, index) => (
+            <div key={index} className="col-xs-12 col-sm-6 col-md-4">
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
