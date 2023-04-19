@@ -11,7 +11,7 @@ import { Container } from 'react-bootstrap';
 // import Sponsors from "./components/Sponsors";
 import Nes from '../src/video/Nes.mp4'
 function App() {
-const [loading, setLoading] = useState(false);
+// const [loading, setLoading] = useState(false);
   // useEffect(()=>{
   //     setTimeout(()=>{
   //       setLoading(false);
@@ -19,6 +19,7 @@ const [loading, setLoading] = useState(false);
   //     },10000)
   // },[])
 
+  const loading = false;
 
   return (
     <div className="App">
