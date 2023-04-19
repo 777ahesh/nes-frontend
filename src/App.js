@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import TestiMonials from './components/TestiMonials/TestiMonials'
 import "./styles.css";
 import Guests from "./components/Guests";
-import React, {useState} from "react";
+import React from "react";
 import { Container } from 'react-bootstrap';
 // import Sponsors from "./components/Sponsors";
 import Nes from '../src/video/Nes.mp4'
