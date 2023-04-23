@@ -1,4 +1,4 @@
-import About2 from "../components/About2";
+import About from "../components/About";
 // import About from "./components/About";
 import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
@@ -34,7 +34,7 @@ function Main() {
           <ParticleComponent theme="dark" />
           <Hero />
           {/* <About /> */}
-          <About2 />
+          <About />
           <Guests />
           <Timeline />
           <TestiMonials />
