@@ -9,6 +9,7 @@ import Timeline from "../components/Timline";
 import ParticleComponent from "../components/subcomponents/ParticleComponent";
 import ParticleBackground from "../components/subcomponents/ParticlesBackground";
 import Nes from "../images/nes-logo.png";
+import Sponsors from "../components/Sponsors";
 import "../styles.css";
 
 function Main() {
@@ -37,7 +38,7 @@ function Main() {
           <Guests />
           <Timeline />
           <TestiMonials />
-          {/* <Sponsors/> */}
+          <Sponsors/>
           {/* <UserForm/> */}
           <Footer />
         </>
