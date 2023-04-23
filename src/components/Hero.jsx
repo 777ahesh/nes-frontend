@@ -1,6 +1,6 @@
 import "./styles/Hero.css";
 // import React, { useState, useEffect } from "react";
-import React, { useRef } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {
@@ -27,11 +27,6 @@ const Hero = () => {
   // const { days, hours, minutes, seconds } = countdown;
 
 
-  const myRef = useRef(null);
-
-  const scrollToRef = () => {
-    window.scrollTo(0, myRef.current.offsetTop);
-  }
 
 
 
