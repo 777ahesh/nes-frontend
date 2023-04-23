@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono",monospace;
+}
 body {
   background-color: black;
   /* background-image: url("nes-hero-bg.png"); */
@@ -20,12 +27,80 @@ body {
 }
 
 /* Loader */
-.video-container{
-  height: 100%;
-  width: 100%;
+
+.modal-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper{
+  box-sizing: content-box;
+  background-color: transparent;
+  /* height: 70px; */
+  padding: 50px 30px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+
+.border-left {
+  border-left: 2px solid black;
+}
+
+.words{
   overflow: hidden;
+}
+.words span{
+  display: flex;
+  height: 100%;
+  padding-left: 10px;
+  color: #0e6ffc;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  animation: spin_words 6s infinite;
+  background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  font-size: 4rem;
+
 }
 
 
+@keyframes spin_words{
+  10%{
+      transform: translateY(-112%);
+  }
+  25%{
+      transform: translateY(-100%);
+  }
+  35%{
+      transform: translateY(-212%);
+  }
+  50%{
+      transform: translateY(-200%);
+  }
+  60%{
+      transform: translateY(-312%);
+  }
+  75%{
+      transform: translateY(-300%);
+  }
+  85%{
+      transform: translateY(-412%);
+  }
+  100%{
+      transform: translateY(-400%);
+  }
+}
+
+.loader-wrapper p{
+  font-size: 2rem;
+}
+.words span:last-of-type{
+    font-weight: bold;
+  }
 
 

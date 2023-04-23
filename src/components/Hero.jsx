@@ -1,6 +1,7 @@
 import "./styles/Hero.css";
 // import React, { useState, useEffect } from "react";
-import React, {useRef} from "react";
+import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   // const [countdown, setCountdown] = useState(null);
@@ -41,9 +42,9 @@ const Hero = () => {
         <div className="container">
           {/* <nav className="navbar navbar-expand-md navbar-light bg-transparent"> */}
           <nav className="navbar navbar-expand-md navbar-light ">
-            <a className="navbar-brand" href="/">
+            <NavLink className="navbar-brand" href="/">
               <h1>IIC</h1>
-            </a>
+            </NavLink>
             <button
               className="navbar-toggler"
               type="button"
@@ -61,46 +62,45 @@ const Hero = () => {
             >
               <ul className="navbar-nav ms-auto py-4 py-md-0">
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a
-                    className="nav-link active"
-                    href="/"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Home
-                  </a>
+                <NavLink className="nav-link" aria-current="page" to="/">
+                  Home
+                </NavLink>
                 </li>
-                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a className="nav-link" href="/" onClick={scrollToRef}>
+                {/* <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                  <NavLink className="nav-link" to="/about" onClick={scrollToRef}>
                     About
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a className="nav-link" href="/">
+                  <NavLink className="nav-link" to="/">
                     Events
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a
+                  <NavLink
                     className="nav-link"
-                    href="/"
+                    to="/"
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     Speakers
-                  </a>
-                </li>
+                  </NavLink>
+                </li> */}
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a className="nav-link" href="/">
+                  <NavLink className="nav-link" to="/team">
                     Team
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <a className="nav-link" href="/">
+                  <NavLink className="nav-link" to="/team">
                     Contact
-                  </a>
+                  </NavLink>
+                </li>
+                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                  <NavLink className="nav-link" to="/register">
+                    Register
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -165,13 +165,13 @@ const Hero = () => {
 
         <div className="login-box">
           <form>
-            <a href="/">
+            <NavLink to="/register">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               register
-            </a>
+            </NavLink>
           </form>
         </div>
 

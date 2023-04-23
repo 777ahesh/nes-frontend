@@ -111,14 +111,15 @@ function Footer() {
           </section>
         </div>
 
-        <div className="text-center mb-4">
+        <div className="text-center ">
           {/* style="background-color: rgba(0, 0, 0, 0.2)" */}
           Developed by IIC I2IT
-          © 2022 Copyright:
+          © 2023 Copyright:
           &nbsp;
-          <a className="text-white" href="/">
+          <a className="text-white " href="/">
             nes.iic.i2it
           </a>
+          <div className="content mb-2"></div>
         </div>
       </footer>
     </>
