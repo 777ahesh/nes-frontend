@@ -2,23 +2,10 @@
     background: #000000 !important;
 }
 
-/* .btn-primary:hover,
-.btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
-    box-shadow: none;
-    outline: none;
+.flip-card .card {
+    max-height: 250px;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
-} */
-
-/* section {
-    padding: 60px 0;
-} */
 .guest-title {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -30,7 +17,8 @@
     margin-bottom: 50px;
     text-transform: uppercase;
 }
-#team{
+
+#team {
     padding: 60px 0;
 }
 
