@@ -54,16 +54,13 @@ body {
   display: flex;
   height: 100%;
   padding-left: 10px;
-  color: #0e6ffc;
+  color: #fff;
+  font-weight: bold;
   text-align: center;
   justify-content: center;
   align-items: center;
   animation: spin_words 6s infinite;
-  background: linear-gradient(to right, #f32170,
-            #ff6b08, #cf23cf, #eedd44);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+  /*  */
   font-size: 4rem;
 
 }
@@ -101,6 +98,11 @@ body {
 }
 .words span:last-of-type{
     font-weight: bold;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
 
 

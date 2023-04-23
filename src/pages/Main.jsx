@@ -16,7 +16,7 @@ function Main() {
   useEffect(() => {
     setTimeout(() => {
       setLoading("true");
-    }, 10);
+    }, 0);
     setTimeout(() => {
       setLoading("false");
       console.log("Welcome");
@@ -25,13 +25,12 @@ function Main() {
 
   // const loading = "true";
 
-  const texts = ["Build","Build", "Network", "Grow", "Let's Summit"];
+  const texts = ["Build","Build", "Network", "Grow", "Let's Summit!"];
 
   return (
     <div className="App">
       {loading === "false" ? (
         <>
-          <ParticleComponent theme="dark" />
           <Hero />
           {/* <About /> */}
           <About2 />

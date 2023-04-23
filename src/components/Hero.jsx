@@ -2,7 +2,7 @@ import "./styles/Hero.css";
 // import React, { useState, useEffect } from "react";
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import ParticleComponent from "./subcomponents/ParticleComponent";
 const Hero = () => {
   // const [countdown, setCountdown] = useState(null);
 
@@ -26,42 +26,40 @@ const Hero = () => {
   // }, []);
   // const { days, hours, minutes, seconds } = countdown;
 
-
-
-
-
   return (
+    <>
 
-    <div className="hero">
-      <section id="navbar" className=" start-header start-style ">
-        <div className="container">
-          {/* <nav className="navbar navbar-expand-md navbar-light bg-transparent"> */}
-          <nav className="navbar navbar-expand-md navbar-light ">
-            <NavLink className="navbar-brand" href="/">
-              <h1>IIC</h1>
-            </NavLink>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ms-auto py-4 py-md-0">
-                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                <NavLink className="nav-link" aria-current="page" to="/">
-                  Home
-                </NavLink>
-                </li>
-                {/* <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+      <div className="hero">
+          <ParticleComponent theme="dark" />
+        <section id="navbar" className=" start-header start-style ">
+          <div className="container">
+            {/* <nav className="navbar navbar-expand-md navbar-light bg-transparent"> */}
+            <nav className="navbar navbar-expand-md navbar-light ">
+              <NavLink className="navbar-brand" href="/">
+                <h1>IIC</h1>
+              </NavLink>
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul className="navbar-nav ms-auto py-4 py-md-0">
+                  <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                    <NavLink className="nav-link" aria-current="page" to="/">
+                      Home
+                    </NavLink>
+                  </li>
+                  {/* <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
                   <NavLink className="nav-link" to="/about" onClick={scrollToRef}>
                     About
                   </NavLink>
@@ -82,49 +80,51 @@ const Hero = () => {
                     Speakers
                   </NavLink>
                 </li> */}
-                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <NavLink className="nav-link" to="/team">
-                    Team
-                  </NavLink>
-                </li>
-                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <NavLink className="nav-link" to="/team">
-                    Contact
-                  </NavLink>
-                </li>
-                <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
-                  <NavLink className="nav-link" to="/register">
-                    Register
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </section>
+                  <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                    <NavLink className="nav-link" to="/team">
+                      Team
+                    </NavLink>
+                  </li>
+                  <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                    <NavLink className="nav-link" to="/team">
+                      Contact
+                    </NavLink>
+                  </li>
+                  <li className="nav-item pl-4 pl-md-0 ms-0 ms-md-4">
+                    <NavLink className="nav-link" to="/register">
+                      Register
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </section>
 
-      <section id="Hero" className="Hero">
-        <div className="iic">
-          <h3>Institutes Innovation Council</h3>
-          <h5>International Institute of Information Technology</h5>
-        </div>
-        <div>
-          <h4>Presents</h4>
-        </div>
-        <div className="nes">
-          {/* <h1>NATIONAL</h1> */}
+        <section id="Hero" className="Hero">
+          <div className="iic">
+            <h3>Institutes Innovation Council</h3>
+            <h5>International Institute of Information Technology</h5>
+          </div>
+          <div>
+            <h4>Presents</h4>
+          </div>
+          <div className="nes">
+            {/* <h1>NATIONAL</h1> */}
 
-          <p className="popout">
-            <span>NATIONAL</span><br />
-            <span>ENTREPRENEURSHIP</span><br />
-            <span>SUMMIT</span>
-          </p>
+            <p className="popout">
+              <span>NATIONAL</span>
+              <br />
+              <span>ENTREPRENEURSHIP</span>
+              <br />
+              <span>SUMMIT</span>
+            </p>
 
-          {/* <h1>ENTREPRENEURSHIP</h1>
+            {/* <h1>ENTREPRENEURSHIP</h1>
             <h1>SUMMIT</h1> */}
-        </div>
+          </div>
 
-        {/* <div className="counter">
+          {/* <div className="counter">
           <h3>Registration closes in</h3>
           {countdown && (
             <div className="countdown">
@@ -158,19 +158,19 @@ const Hero = () => {
           )}
         </div> */}
 
-        <div className="login-box">
-          <form>
-            <NavLink to="/register">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              register
-            </NavLink>
-          </form>
-        </div>
+          <div className="login-box">
+            <form>
+              <NavLink to="/register">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                register
+              </NavLink>
+            </form>
+          </div>
 
-        {/* <div className="counter">
+          {/* <div className="counter">
           <h3>Registration closes in</h3>
           {countdown && (
             <div className="countdown">
@@ -203,10 +203,9 @@ const Hero = () => {
             </div>
           )}
         </div> */}
-
-      </section >
-    </div >
-
+        </section>
+      </div>
+    </>
   );
 };
 
