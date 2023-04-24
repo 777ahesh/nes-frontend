@@ -126,3 +126,13 @@
     border-radius: 50%;
     border: 2px solid #f9c449;
 }
+
+@media screen and (max-width: 380px) {
+    .flip-card .card {
+        max-height:fit-content;
+    }
+    #team .card-body{
+        margin: 0 auto;
+        padding: 0;
+    }
+}

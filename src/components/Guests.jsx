@@ -30,7 +30,7 @@ const speakers = [
     name: "Mr. Ishan Sharma",
     photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6WovIizdfQx4rkG8Zr3nx6MceQ5gh3TgGHf0gbXb4A&s",
     occupation: "Founder MarkitUp, Famous Youtuber",
-    info:"Worked with companies like Google, Amazon, 3M, Unacademy, Flipkart, CRED, Hubspot and more on their social media campaigns. Co-founded a 25 people remote marketing agency called MarkitUp with college roommates."
+    info:"Worked with companies like Google, Amazon, 3M, Unacademy, Flipkart, CRED, Hubspot and more on their social media campaigns. Co-founded a 25 people remote marketing agency called MarkitUp."
   },
   {
     name: "Mr. Manish Samota",
@@ -48,13 +48,13 @@ const speakers = [
     name: "Mr. Rajesh KS",
     photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiP3OVg3x5evldVr7fEB3r2KA0dByTgmXM9JdVwrmcrQ&s",
     occupation: "VP - Product Engineering, Mastercard ",
-    info:"Experienced executive who has had global leadership stints in Product Management, Technology Consulting, Business Development, managing large programs,E-Commerce, Retail and Telecommunications markets."
+    info:"Experienced executive who has had global leadership stints in Product Management, Technology Consulting, Business Development, managing large programs, Retail and Telecommunications markets."
   },
   {
     name: "Mr. Rajiv Malhan",
     photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJsFXtE4qHoIL0Eon4_AzRMerRrHMvvruLOONpc2GlWA&s",
     occupation: "Head - Strategic Projects and Business Transformation, Aditya Birla Capital",
-    info:"A strategic and tech-savvy leader with 20+ years of progressive experience in conceptualizing, co-developing and implementing Business & Digital Transformation strategies. Enhancing speed, agility, and resilience within the BFSI space."
+    info:"A strategic and tech-savvy leader with progressive experience in co-developing and implementing Business & Digital Transformation strategies. Enhancing speed, agility, and resilience within the BFSI space."
   },
   {
     name: "Mr. Shravan Tikoo",

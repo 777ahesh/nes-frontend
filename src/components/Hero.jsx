@@ -7,7 +7,7 @@ const Hero = () => {
     <>
 
       <div className="hero">
-          <ParticleComponent theme="dark" />
+        <ParticleComponent theme="dark" />
         <section id="navbar" className=" start-header start-style ">
           <div className="container">
             {/* <nav className="navbar navbar-expand-md navbar-light bg-transparent"> */}
@@ -78,21 +78,21 @@ const Hero = () => {
           </div>
         </section>
 
-      <section id="Hero" className="Hero">
-        <div className="iic">
-          <h3>Institutes Innovation Council</h3>
-          <h5>International Institute of Information Technology</h5>
-        </div>
-        <div>
-          <h4>Presents</h4>
-        </div>
-        <div className="nes">
-          <p className="popout">
-            <span>NATIONAL</span><br />
-            <span>ENTREPRENEURSHIP</span><br />
-            <span>SUMMIT</span>
-          </p>
-        </div>
+        <section id="Hero" className="Hero">
+          <div className="iic">
+            <h3>Institutes Innovation Council</h3>
+            <h5>International Institute of Information Technology</h5>
+          </div>
+          <div>
+            <h4>Presents</h4>
+          </div>
+          <div className="nes">
+            <p className="popout">
+              <span>NATIONAL</span><br />
+              <span>ENTREPRENEURSHIP</span><br />
+              <span>SUMMIT</span>
+            </p>
+          </div>
 
           <div className="login-box">
             <form>
@@ -105,40 +105,6 @@ const Hero = () => {
               </NavLink>
             </form>
           </div>
-
-          {/* <div className="counter">
-          <h3>Registration closes in</h3>
-          {countdown && (
-            <div className="countdown">
-              <div className="boxes">
-                <div className="box">
-                  <span className="num" id="day-box">
-                    {countdown.split(" ")[0]}
-                  </span>
-                  <span className="text">Days</span>
-                </div>
-                <div className="box">
-                  <span className="num" id="day-box">
-                    {countdown.split(" ")[1]}
-                  </span>
-                  <span className="text">Hours</span>
-                </div>
-                <div className="box">
-                  <span className="num" id="day-box">
-                    {countdown.split(" ")[2]}
-                  </span>
-                  <span className="text">Minutes</span>
-                </div>
-                <div className="box">
-                  <span className="num" id="day-box">
-                    {countdown.split(" ")[3]}
-                  </span>
-                  <span className="text">Seconds</span>
-                </div>
-              </div>
-            </div>
-          )}
-        </div> */}
         </section>
       </div>
     </>

@@ -18,6 +18,12 @@
     }
 
 }
+@media screen and (max-width: 380px) {
+    .vertical-timeline-element>div {
+        min-height: 1px;
+        min-width: 210px;
+    }
+}
 
 .title-div h1 {
     background: linear-gradient(to right, #f32170,
